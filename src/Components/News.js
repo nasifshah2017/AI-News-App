@@ -59,7 +59,7 @@ class News extends Component {
                     />
                   </div>
                   <Card.Body>
-                    <Card.Title>{article.title}</Card.Title>
+                    <Card.Title><strong>{article.title}</strong></Card.Title>
                     <Card.Text>{article.description}</Card.Text>
                     <a
                       href={article.url}
