@@ -1,5 +1,7 @@
 // config.js
 
+// src/config.js
+
 const config = {
     apiKey: ""
   };
