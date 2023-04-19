@@ -16,7 +16,7 @@ class News extends Component {
     const singleNewsUrl = `https://gnews.io/api/v4/search?q=AI&lang=en&country=us&max=10&apikey=${apiKey}`;
     axios.get(singleNewsUrl).then((response) => {
       this.setState({
-        news: response.data.articles, // Store only the articles in state
+        news: response.data.articles, // Stores only the articles in state
       });
     });
   }
